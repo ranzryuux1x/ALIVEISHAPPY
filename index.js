@@ -14,7 +14,7 @@ const util = require('util');
 const execPromise = util.promisify(exec);
 
 // ============ CONFIGURATION ============
-const BOT_TOKEN = process.env.BOT_TOKEN || 'YOUR_BOT_TOKEN_HERE';
+const BOT_TOKEN = process.env.BOT_TOKEN || '8643401830:AAG8r0k_c4GEHy9uWZQUSvsa0vopyizOpaA';
 const ADMIN_IDS = process.env.ADMIN_IDS ? process.env.ADMIN_IDS.split(',') : [];
 const LOG_FILE = 'bot_activity.log';
 
